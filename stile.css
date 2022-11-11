@@ -1,0 +1,89 @@
+
+    #fundoNome {
+        background-color:rgba(255, 68, 0, 0.63);
+        
+        margin-top: 50px;
+        margin-bottom: 50px;
+       
+    }
+
+    #nome {
+
+        background-color: white;
+        width: 25%;
+        margin: 0 auto;
+        text-align: center;
+        font-family: 'PT Serif', serif;
+    }
+
+    #contatos{
+        list-style-type: none;
+    }
+    #contatos i {
+        width: 30px;
+        color:aqua;
+    }
+    #skills{
+        list-style-type: none;
+    }
+
+    #skills i {
+        width: 30px;
+        color:crimson;
+
+    }
+    
+    #formaçao i {
+        width: 30px;
+        color:goldenrod;
+
+    }
+    #formaçao {
+        list-style-type: none;
+    }
+    
+    
+    #links{
+        list-style-type: none;
+    }
+
+    #links i {
+        width: 30px;
+        color:darkviolet;
+
+    }
+
+    #xp{
+        list-style-type: none;
+    }
+
+    #xp i {
+        width: 30px;
+        color:darkgreen;
+
+    }
+
+    #colunas {
+
+        grid-template-columns: 35% auto;
+        display: grid;
+        grid-column-gap: 20px;
+    }
+    #colEsquerda, #colDireita {
+        display: flex;
+        flex-direction: column;
+        row-gap: 30px;
+    }
+    .divisoes h3{
+       text-transform: uppercase;
+       text-decoration: underline;
+       font-family: 'PT Serif', serif;
+    }
+
+    .divisoes {
+        border: 2px solid brown;
+        border-radius: 25px;
+        border-style:dashed;
+        padding: 20px;
+        font-family: 'Roboto Slab', serif;
+    }
